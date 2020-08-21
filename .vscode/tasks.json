@@ -1,0 +1,12 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "echo",
+      "type": "shell",
+      "command": "docker run -it -d --restart unless-stopped -v d/games/Dom5DiscordBot/dominions-5-status/resources:/usr/src/myapp/resources --log-opt max-size=10m --log-opt max-file=5 dominions5status:mod"
+    }
+  ]
+}

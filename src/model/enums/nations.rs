@@ -130,6 +130,15 @@ lazy_static! {
         m.insert(38, "Pelagia");
         m.insert(39, "Oceania");
         m.insert(40, "Therodos");
+        m.insert(124, "Chaco");
+        m.insert(127, "Nahullo");
+        m.insert(128, "Albion");
+        m.insert(129, "Zion");
+        m.insert(130, "Bhöd");
+        m.insert(132, "Fennoscandia");
+        m.insert(136, "Alchera");
+        m.insert(155, "Juhera");
+        m.insert(160, "Nihuala");
         m
     };
 
@@ -170,6 +179,12 @@ lazy_static! {
         m.insert(75, "Pelagia");
         m.insert(76, "Oceania");
         m.insert(77, "Ys");
+        m.insert(125, "Ongtupqa");
+        m.insert(131, "Shambhala");
+        m.insert(134, "Tartary");
+        m.insert(140, "Sawaiiki");
+        m.insert(156, "Iram");
+        m.insert(161, "Nihuala");
         m
     };
 
@@ -201,6 +216,15 @@ lazy_static! {
         m.insert(106, "Atlantis");
         m.insert(107, "R'lyeh");
         m.insert(108, "Erytheia");
+        // MOD NATIONS
+        m.insert(126, "Ongtupqa");
+        m.insert(133, "Rotterland");
+        m.insert(135, "Great Arrada");
+        m.insert(157, "Iram");
+        m.insert(162, "Nihuala");
+        m.insert(166, "Venedia");
+        m.insert(167, "Dom-Dan'yel");
+        m.insert(168, "Gondwana");
         m
     };
 }
